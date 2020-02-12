@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
-import BigBanner from './components/Jumbotron';
 import Card from 'react-bootstrap/Card';
 
-import './style.css';
+import BigBanner from './components/Jumbotron';
 import CardDeck from './components/CardDeck';
+import Footer from './components/Footer';
+import Navigation from './components/Navigation';
+
+import './style.css';
 
 function App() {
   return (
