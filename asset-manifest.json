@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Bootstrap/static/css/main.d07a6fef.chunk.css",
+    "main.css": "/Bootstrap/static/css/main.570a7e99.chunk.css",
     "main.js": "/Bootstrap/static/js/main.9e9e36af.chunk.js",
     "main.js.map": "/Bootstrap/static/js/main.9e9e36af.chunk.js.map",
     "runtime-main.js": "/Bootstrap/static/js/runtime-main.20460c84.js",
@@ -8,15 +8,15 @@
     "static/js/2.3572dc88.chunk.js": "/Bootstrap/static/js/2.3572dc88.chunk.js",
     "static/js/2.3572dc88.chunk.js.map": "/Bootstrap/static/js/2.3572dc88.chunk.js.map",
     "index.html": "/Bootstrap/index.html",
-    "precache-manifest.9dee714801d4a6e5d6a61b29f1ac1bed.js": "/Bootstrap/precache-manifest.9dee714801d4a6e5d6a61b29f1ac1bed.js",
+    "precache-manifest.8d0aafa289dd3dbe2e6328bfd6d6ac50.js": "/Bootstrap/precache-manifest.8d0aafa289dd3dbe2e6328bfd6d6ac50.js",
     "service-worker.js": "/Bootstrap/service-worker.js",
-    "static/css/main.d07a6fef.chunk.css.map": "/Bootstrap/static/css/main.d07a6fef.chunk.css.map",
+    "static/css/main.570a7e99.chunk.css.map": "/Bootstrap/static/css/main.570a7e99.chunk.css.map",
     "static/js/2.3572dc88.chunk.js.LICENSE.txt": "/Bootstrap/static/js/2.3572dc88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.20460c84.js",
     "static/js/2.3572dc88.chunk.js",
-    "static/css/main.d07a6fef.chunk.css",
+    "static/css/main.570a7e99.chunk.css",
     "static/js/main.9e9e36af.chunk.js"
   ]
 }
