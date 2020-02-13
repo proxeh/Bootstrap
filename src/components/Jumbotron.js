@@ -4,7 +4,7 @@ import { Jumbotron } from 'react-bootstrap';
 class BigBanner extends React.Component {
   render() {
     var styles = {
-      background: 'url(' + this.props.bgImage + ') cover center center', textAlign: 'center', color: '#FFF'
+      backgroundImage: 'url(' + this.props.bgImage + ')', backgroundAlign: 'center center', backgroundSize: 'cover', textAlign: 'center', color: '#FFF'
     }
     return (
       <Jumbotron style={ styles }>
