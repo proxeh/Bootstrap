@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 class Footer extends React.Component {
   render() {
     return (
-      <Navbar bg="light" variant="light" fixed="bottom">
+      <Navbar bg="dark" variant="dark" fixed="bottom">
         <div className="container">
           <Navbar.Brand href="#home">
             <img
