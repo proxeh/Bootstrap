@@ -15,15 +15,16 @@ function App() {
     <div className="body">
       <Navigation />
       <BigBanner
-        headerText="Hello!"
-        bodyText="This is some test content!"
+        headerText="Welcome to my project!"
+        bodyText="Learn more below!"
+        buttonText="Learn More"
         bgImage="http://178.128.45.237/img/bg3.jpg"
       />
 
-      <div class="container">
+      <div class="container" id="maincontent">
         <Card>
           <Card.Body>
-            <h1>React Bootstrap Test</h1>
+            <h2>React Bootstrap Test</h2>
             <p>This project was created as a test-bed for working with React Bootstrap.</p>
             <hr />
             <h3>About this project</h3>

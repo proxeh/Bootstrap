@@ -4,3 +4,12 @@ body {
   padding: 58px 0 80px 0;
   background: #aab9c8;
 }
+
+.jumbotron {
+  min-height: 300px;
+}
+
+.jumbotron-textcontainer {
+  background: rgba(0,0,0,0.6);
+  padding: 2rem;
+}
