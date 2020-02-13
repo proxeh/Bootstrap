@@ -15,7 +15,7 @@ class Cards extends React.Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <a href="#0" title="Learn More">Learn More</a>
           </Card.Footer>
         </Card>
         <Card>
@@ -28,7 +28,7 @@ class Cards extends React.Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <a href="#0" title="Learn More">Learn More</a>
           </Card.Footer>
         </Card>
         <Card>
@@ -42,7 +42,7 @@ class Cards extends React.Component {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
+            <a href="#0" title="Learn More">Learn More</a>
           </Card.Footer>
         </Card>
       </CardDeck>

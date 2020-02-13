@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Card from 'react-bootstrap/Card';
+import { Card, Container } from 'react-bootstrap';
 
 import BigBanner from './components/Jumbotron';
 import CardDeck from './components/CardDeck';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
+import ContactForm from './components/ContactForm';
 
 import './style.css';
 
@@ -25,7 +26,7 @@ function App() {
         <Card>
           <Card.Body>
             <h2>React Bootstrap Test</h2>
-            <p>This project was created as a test-bed for working with React Bootstrap.</p>
+            <p>This project was created as a sandbox for working with React Bootstrap.</p>
             <hr />
             <h3>About this project</h3>
             <p>
@@ -36,7 +37,24 @@ function App() {
         </Card>
         <br />
         <CardDeck />
+        <br /><br />
+        <Card>
+          <Card.Body>
+            <Card.Title>Get in touch!</Card.Title>
+            <Card.Text>
+              This won't actually send me an email, it's just a quick form example.
+            </Card.Text>
+            <hr />
+            <ContactForm />
+          </Card.Body>
+        </Card>
+        <br /><br />
       </div>
+      <Container fluid className="container-dark container-angled">
+        <Container>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut eros lectus. Nullam rutrum sollicitudin diam, id volutpat justo vestibulum at. Quisque sed dui malesuada, feugiat lorem et, dignissim sem. Aliquam ultrices quam non magna egestas mollis. Nam semper pharetra magna, suscipit hendrerit magna pulvinar ut. Ut augue erat, aliquam ut eros eu, bibendum ullamcorper ipsum. Duis fringilla ligula erat, at viverra massa suscipit id. Sed condimentum eu augue id condimentum. Maecenas rutrum dapibus vehicula. Nullam ut aliquet lectus, vel suscipit ipsum. Nullam in libero eu magna faucibus elementum. Nulla et ipsum vitae justo consectetur interdum. Cras sed dui posuere, lobortis ante vel, elementum diam.
+        </Container>
+      </Container>
 
       <Footer />
     </div>
