@@ -16,8 +16,8 @@ class BigBanner extends React.Component {
         <div className="jumbotron-textcontainer">
           <h1>{this.props.headerText}</h1>
           <p>
-						<p className="d-none d-lg-block">{this.props.bodyText}</p>
-            <Button primary className="d-lg-none">
+						<span className="d-none d-lg-block">{this.props.bodyText}</span>
+            <Button className="d-lg-none primary">
               <Link
                 activeClass="active"
                 to="maincontent"

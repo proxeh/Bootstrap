@@ -1,11 +1,12 @@
 import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Navigation extends React.Component {
   render() {
     return (
       <Navbar bg="dark" variant="dark" fixed="top" expand="md">
-        <div class="container">
+        <div className="container">
           <Navbar.Brand href="#home">
             <img
               alt=""
@@ -19,7 +20,7 @@ class Navigation extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
             <Nav>
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">About Me</Nav.Link>
+              <Nav.Link href="#maincontent">About The Project</Nav.Link>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Link 1</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another Link</NavDropdown.Item>

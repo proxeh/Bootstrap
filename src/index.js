@@ -21,7 +21,7 @@ function App() {
         bgImage="http://178.128.45.237/img/bg3.jpg"
       />
 
-      <div class="container" id="maincontent">
+      <div className="container" id="maincontent">
         <Card>
           <Card.Body>
             <h2>React Bootstrap Test</h2>
