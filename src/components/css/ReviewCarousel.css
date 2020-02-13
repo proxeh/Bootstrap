@@ -1,0 +1,7 @@
+.carousel-item .no-image.carousel-caption {
+  position: relative;
+  top: initial;
+  bottom: initial;
+  left: initial;
+  right: initial;
+}

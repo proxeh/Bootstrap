@@ -5,13 +5,21 @@ body {
   background: #aab9c8;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 700;
+  color: #878787;
+}
+
 .container-dark {
   position: relative;
   z-index: 1;
   padding: 1rem 0;
   background: #343a40;
   color: white;
+  font-family: 'Fira Sans', sans-serif;
 }
+.container-dark h1, .container-dark h2, .container-dark h3, .container-dark h4 {color: white;}
 
 .container-angled {
   margin-bottom: 3rem;
