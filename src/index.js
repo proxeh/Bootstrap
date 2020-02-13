@@ -38,6 +38,13 @@ function App() {
         <br />
         <CardDeck />
         <br /><br />
+      </div>
+      <Container fluid className="container-dark container-angled">
+        <Container>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut eros lectus. Nullam rutrum sollicitudin diam, id volutpat justo vestibulum at. Quisque sed dui malesuada, feugiat lorem et, dignissim sem. Aliquam ultrices quam non magna egestas mollis. Nam semper pharetra magna, suscipit hendrerit magna pulvinar ut. Ut augue erat, aliquam ut eros eu, bibendum ullamcorper ipsum. Duis fringilla ligula erat, at viverra massa suscipit id. Sed condimentum eu augue id condimentum. Maecenas rutrum dapibus vehicula. Nullam ut aliquet lectus, vel suscipit ipsum. Nullam in libero eu magna faucibus elementum. Nulla et ipsum vitae justo consectetur interdum. Cras sed dui posuere, lobortis ante vel, elementum diam.
+        </Container>
+      </Container>
+      <Container>
         <Card>
           <Card.Body>
             <Card.Title>Get in touch!</Card.Title>
@@ -48,12 +55,6 @@ function App() {
             <ContactForm />
           </Card.Body>
         </Card>
-        <br /><br />
-      </div>
-      <Container fluid className="container-dark container-angled">
-        <Container>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut eros lectus. Nullam rutrum sollicitudin diam, id volutpat justo vestibulum at. Quisque sed dui malesuada, feugiat lorem et, dignissim sem. Aliquam ultrices quam non magna egestas mollis. Nam semper pharetra magna, suscipit hendrerit magna pulvinar ut. Ut augue erat, aliquam ut eros eu, bibendum ullamcorper ipsum. Duis fringilla ligula erat, at viverra massa suscipit id. Sed condimentum eu augue id condimentum. Maecenas rutrum dapibus vehicula. Nullam ut aliquet lectus, vel suscipit ipsum. Nullam in libero eu magna faucibus elementum. Nulla et ipsum vitae justo consectetur interdum. Cras sed dui posuere, lobortis ante vel, elementum diam.
-        </Container>
       </Container>
 
       <Footer />

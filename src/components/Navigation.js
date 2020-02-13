@@ -2,6 +2,8 @@ import React from 'react';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link, animateScroll as scroll } from "react-scroll";
 
+import './css/Navigation.css';
+
 class Navigation extends React.Component {
   render() {
     return (

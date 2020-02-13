@@ -5,22 +5,6 @@ body {
   background: #aab9c8;
 }
 
-.navbar a.active::after {
-  content: '';
-  display: block;
-  width: 100%;
-  border-bottom: 1px solid rgba(255,255,255,0.5);
-}
-
-.jumbotron {
-  min-height: 300px;
-}
-
-.jumbotron-textcontainer {
-  background: rgba(0,0,0,0.6);
-  padding: 2rem;
-}
-
 .container-dark {
   position: relative;
   z-index: 1;
@@ -29,6 +13,9 @@ body {
   color: white;
 }
 
+.container-angled {
+  margin-bottom: 3rem;
+}
 .container-angled::before, .container-angled::after {
   background: inherit;
   content: '';
