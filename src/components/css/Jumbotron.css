@@ -6,3 +6,6 @@
   background: rgba(0,0,0,0.6);
   padding: 2rem;
 }
+.jumbotron-textcontainer h1, .jumbotron-textcontainer h2, .jumbotron-textcontainer h3, .jumbotron-textcontainer h4 {
+  color: white;
+}
